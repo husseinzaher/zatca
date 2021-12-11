@@ -1,0 +1,25 @@
+{
+    "name": "husseinzaher/zatca",
+    "description": "A helper to generate the QR code and signed it for ZATCA e-invoicing",
+    "require": {
+        "php": ">=7.4",
+        "ext-mbstring": "*",
+        "chillerlan/php-qrcode": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Husseinzaher\\Zatca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hussein Zaher",
+            "email": "husseinzaher@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
